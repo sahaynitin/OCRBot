@@ -4,13 +4,13 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Hi {}
 
-Welcome to {}
+I am Image To Text Converter Bot
 
-I can extract text from images using OCR technology.
+I can help you to extract text from images using ocr technology.
 
-By @StarkBots
+Made With 💕 By @Tellybots_4u
     """
 
     # Home Button
@@ -45,8 +45,6 @@ More features in development. Keep track by joining @StarkBots.
     # About Message
     ABOUT = """
 **About This Bot** 
-
-Bot created by @StarkBots
 
 Source Code : [Click Here](https://github.com/StarkBotsIndustries/OCRBot)
 
