@@ -10,10 +10,10 @@ class Data:
 <b><b>✪ Made With 💕 By </b>@Tellybots_4u</b>\n """
 
     # Home Button
-    home_buttons = [
+    home_buttons =       [
         [InlineKeyboardButton("🚦 Bot Status", url="https://t.me/tellybots_4u")],
         [InlineKeyboardButton(text="🏡 Home", callback_data="home")],
-    ]
+      ]
     # Rest Buttons
     buttons = [
                     [InlineKeyboardButton('📡 Update Channel', url='https://t.me/tellybots_4u'), InlineKeyboardButton('💬 Support Group', url='https://t.me/tellybots_support')],
