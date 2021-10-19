@@ -5,7 +5,7 @@ class Data:
     # Start Message
     START = """
 <b>Hey </b> {}\n\n
-<b>I am Telegram File Direct Link Generator as well as File Streamer Bot. </b>\n\n
+<b>I am Image to text Converter Bot. </b>\n\n
 <b>✪ Use Help Command to Know how to Use me.</b>\n\n
 <b><b>✪ Made With 💕 By </b>@Tellybots_4u</b>\n\n
     """
