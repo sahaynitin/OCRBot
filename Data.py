@@ -38,13 +38,10 @@ class Data:
 
     # About Message
     ABOUT = """
-**About This Bot** 
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/OCRBot)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
+<b>🤖 My Name : Image to text Converter Bot</b>\n
+<b>🚦 Version : <a href='https://telegram.me/tellybots_4u'>2.0</a></b>\n
+<b>💫 Source Code : <a href='https://t.me/tellybots_digital'>Click Here</a></b>\n
+<b>🗃️ Library : <a href='https://pyrogram.org'>Click Here</a></b>\n
+<b>👲 Developer : <a href='https://telegram.me/tellybots_4u'>TellyBots_4u</a></b>\n
+<b>📦 Last Updated : <a href='https://telegram.me/tellybots_4u'>[ 15-Oct-21 ] 10:00 PM</a></b>
     """
