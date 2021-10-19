@@ -6,20 +6,20 @@ class Data:
     START = """
 <b>Hey </b> {}\n
 <b>I am Image to text Converter Bot. </b>\n
-<b>✪ Use Help Command to Know how to Use me.</b>\n
+<b>✪ Use Help Button or Command to Know how to Use me.</b>\n
 <b><b>✪ Made With 💕 By </b>@Tellybots_4u</b>\n
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton("🚦 Bot Status", url="https://t.me/tellybots_4u")],
+        [InlineKeyboardButton(text="🏡 Home", callback_data="home")],
     ]
     # Rest Buttons
     buttons = InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('📡 Update Channel', url='https://t.me/tellybots_4u'), InlineKeyboardButton('💬 Support Group', url='https://t.me/tellybots_support')],
-                    [InlineKeyboardButton('🚦 Bot Status', url='https://t.me/tellybots_4u'), InlineKeyboardButton('⛔ Close', callback_data='close')]
+                    [InlineKeyboardButton('🚦 Bot Status', url='https://t.me/tellybots_4u'), InlineKeyboardButton('🆘 Help', callback_data='help')]
                 ]
 
     # Help Message
