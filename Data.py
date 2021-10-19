@@ -4,10 +4,10 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-<b>Hey </b> {}\n\n
-<b>I am Image to text Converter Bot. </b>\n\n
-<b>✪ Use Help Command to Know how to Use me.</b>\n\n
-<b><b>✪ Made With 💕 By </b>@Tellybots_4u</b>\n\n
+<b>Hey </b> {}\n
+<b>I am Image to text Converter Bot. </b>\n
+<b>✪ Use Help Command to Know how to Use me.</b>\n
+<b><b>✪ Made With 💕 By </b>@Tellybots_4u</b>\n
     """
 
     # Home Button
@@ -30,13 +30,10 @@ class Data:
 
     # Help Message
     HELP = """
-You Really Need Help ?!?!?!?!
-
-Just send an image. Rest is on me.
-
-Note : You can send any amount of images at once and it will work with same speed and accuracy.
-
-More features in development. Keep track by joining @StarkBots.
+<b>✪ Send Me Any Image to get started .</b>\n
+<b>✪ I Can Provide Text from the Image Using ocr.</b>\n
+<b>✪ It can Support Multiple image at a time </b>\n
+<b>✪ Made With 💕 By @Tellybots_4u</b>\n
     """
 
     # About Message
