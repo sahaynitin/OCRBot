@@ -16,8 +16,7 @@ class Data:
         [InlineKeyboardButton(text="🏡 Home", callback_data="home")],
     ]
     # Rest Buttons
-    buttons = InlineKeyboardMarkup(
-                [
+    buttons = [
                     [InlineKeyboardButton('📡 Update Channel', url='https://t.me/tellybots_4u'), InlineKeyboardButton('💬 Support Group', url='https://t.me/tellybots_support')],
                     [InlineKeyboardButton('🚦 Bot Status', url='https://t.me/tellybots_4u'), InlineKeyboardButton('🆘 Help', callback_data='help')]
                 ]
@@ -27,8 +26,7 @@ class Data:
 <b>✪ Send Me Any Image to get started .</b>\n
 <b>✪ I Can Provide Text from the Image Using ocr.</b>\n
 <b>✪ It can Support Multiple image at a time </b>\n
-<b>✪ Made With 💕 By @Tellybots_4u</b>\n
-    """
+<b>✪ Made With 💕 By @Tellybots_4u</b>\n"""
 
     # About Message
     ABOUT = """
@@ -37,5 +35,4 @@ class Data:
 <b>💫 Source Code : <a href='https://t.me/tellybots_digital'>Click Here</a></b>\n
 <b>🗃️ Library : <a href='https://pyrogram.org'>Click Here</a></b>\n
 <b>👲 Developer : <a href='https://telegram.me/tellybots_4u'>TellyBots_4u</a></b>\n
-<b>📦 Last Updated : <a href='https://telegram.me/tellybots_4u'>[ 15-Oct-21 ] 10:00 PM</a></b>
-    """
+<b>📦 Last Updated : <a href='https://telegram.me/tellybots_4u'>[ 15-Oct-21 ] 10:00 PM</a></b>"""
