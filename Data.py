@@ -11,8 +11,8 @@ class Data:
 
     # Home Button
     home_buttons =       [
-        [InlineKeyboardButton("🚦 Bot Status", url="https://t.me/tellybots_4u")],
-        [InlineKeyboardButton(text="🏡 Home", callback_data="home")],
+          [InlineKeyboardButton("🚦 Bot Status", url="https://t.me/tellybots_4u")],
+           [InlineKeyboardButton(text="🏡 Home", callback_data="home")],
       ]
     # Rest Buttons
     buttons = [
