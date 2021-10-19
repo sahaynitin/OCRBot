@@ -4,13 +4,10 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hi {}
-
-I am Image To Text Converter Bot
-
-I can help you to extract text from images using ocr technology.
-
-Made With 💕 By @Tellybots_4u
+<b>Hey </b> {}\n\n
+<b>I am Telegram File Direct Link Generator as well as File Streamer Bot. </b>\n\n
+<b>✪ Use Help Command to Know how to Use me.</b>\n\n
+<b><b>✪ Made With 💕 By </b>@Tellybots_4u</b>\n\n
     """
 
     # Home Button
